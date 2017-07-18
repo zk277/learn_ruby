@@ -1,13 +1,10 @@
 # # Simon Says
-#
 # ## Topics
-#
 # * functions
 # * strings
 # * default parameter values
 #
 # ## Hints
-#
 # When you make the second `repeat` test pass, you might break the **first**
 #
 
@@ -41,8 +38,8 @@ describe "Simon says" do
 
     # Wait a second! How can you make the "repeat" method
     # take one *or* two arguments?
-    #
     # Hint: *default values*
+
     it "should repeat a number of times" do
       expect(repeat("hello", 3)).to eq("hello hello hello")
     end
